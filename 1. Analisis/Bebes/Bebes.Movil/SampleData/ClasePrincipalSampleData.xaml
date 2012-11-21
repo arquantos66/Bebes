@@ -1,0 +1,6 @@
+﻿<Bebes_Movil:ClasePrincipal xmlns:Bebes_Movil="clr-namespace:Bebes.Movil">
+	<Bebes_Movil:ClasePrincipal.Lista1>
+		<Bebes_Movil:Registro Descripcion="Nombre" FechaHora="11/13/2012 19:34:05" Identificador="84" Nombre="luis" Tipo="Gordo"/>
+		
+	</Bebes_Movil:ClasePrincipal.Lista1>
+</Bebes_Movil:ClasePrincipal>
