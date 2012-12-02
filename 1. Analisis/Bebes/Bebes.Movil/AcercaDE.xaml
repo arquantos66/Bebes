@@ -36,7 +36,7 @@
         		<Paragraph><Run/></Paragraph>
         		<Paragraph><Run FontWeight="Bold" Text="Materia"/></Paragraph>
         		<Paragraph><Run/></Paragraph>
-        		<Paragraph><Run Text="Herramientas de Programación 2"/></Paragraph>
+        		<Paragraph><Run Text="Herramientas de Programación "/><Run Text="3"/></Paragraph>
         		<Paragraph><Run/></Paragraph>
         		<Paragraph><Run FontWeight="Bold" Text="Profesor"/></Paragraph>
         		<Paragraph><Run/></Paragraph>

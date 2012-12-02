@@ -10,8 +10,12 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
-    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
-    shell:SystemTray.IsVisible="True">
+    mc:Ignorable="d" shell:SystemTray.IsVisible="True" d:DesignHeight="696" d:DesignWidth="480">
+	<phone:PhoneApplicationPage.ApplicationBar>
+		<shell:ApplicationBar>
+			<shell:ApplicationBarIconButton x:Name="btnCrear" IconUri="/icons/appbar.save.rest.png" Text="Crear" Click="btnCrear_Click"/>
+		</shell:ApplicationBar>
+	</phone:PhoneApplicationPage.ApplicationBar>
 
     <!--LayoutRoot es la cuadrícula raíz donde se coloca todo el contenido de la página-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
@@ -25,7 +29,7 @@
             <TextBlock x:Name="ApplicationTitle" Text="PESO PARA BEBES" Style="{StaticResource PhoneTextNormalStyle}"/>
             <TextBlock x:Name="PageTitle" Text="Crear Perfil" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
-        <ScrollViewer Margin="12,0,12,0" Grid.Row="1" >
+        <ScrollViewer Margin="12,0,12,0" Grid.Row="1" VerticalAlignment="Bottom" >
 <!--ContentPanel. Colocar aquí el contenido adicional-->
         	<Grid x:Name="ContentPanel" Height="607" Width="456" ScrollViewer.HorizontalScrollBarVisibility="Auto">
         		<TextBlock Margin="0" TextWrapping="Wrap" Text="Nombre de Usuario" VerticalAlignment="Top" FontWeight="Bold"/>

@@ -10,18 +10,33 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
+using System.Linq;
+
+
+
+
 
 namespace Bebes.Movil
 {
     public partial class MainPage : PhoneApplicationPage
     {
-        // Constructor
+        
         public MainPage()
+
         {
             InitializeComponent();
+            this.DataContext = App.Contexto;
+            this.Loaded += new RoutedEventHandler(MainPage_Loaded);
         }
 
-        
+        void MainPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            using (BaseDatosDataContext contexto = new BaseDatosDataContext("isostore:/db.sdf"))
+            {
+                (from i in contexto.Registro select i).ToList().ForEach(p => App.Contexto.ListaRegistros.Add(p));
+
+                }
+        }
 
         private void btnagregar_Click(object sender, System.EventArgs e)
         {

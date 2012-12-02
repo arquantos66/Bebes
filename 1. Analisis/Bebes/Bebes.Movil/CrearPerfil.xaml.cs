@@ -19,5 +19,12 @@ namespace Bebes.Movil
         {
             InitializeComponent();
         }
+
+      
+
+        private void btnCrear_Click(object sender, System.EventArgs e)
+        {
+        	// TODO: Agregar implementación de controlador de eventos aquí.
+        }
     }
 }

@@ -33,10 +33,10 @@
             <TextBlock x:Name="PageTitle" Text="iniciar sesion" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
         <StackPanel x:Name="ContentPanel" Margin="12,0,12,0" Grid.Row="1" RenderTransformOrigin="0.489,0.561" >
-        	<TextBlock TextWrapping="Wrap" Text="Nombre de usario" FontWeight="Bold"/>
-        	<TextBox TextWrapping="Wrap" BorderThickness="3"/>
-        	<TextBlock TextWrapping="Wrap" Text="Nombre del bebe" FontWeight="Bold"/>
-        	<TextBox TextWrapping="Wrap" Foreground="#FF1F73E4" SelectionBackground="#FF2ABCCE"/>
+        	<TextBlock TextWrapping="Wrap" Text="Nombre de usario" FontWeight="Bold" />
+        	<TextBox TextWrapping="Wrap" BorderThickness="3" Name="txtNombreDeUsuario" />
+        	<TextBlock TextWrapping="Wrap" Text="Nombre del bebe" FontWeight="Bold" />
+        	<TextBox TextWrapping="Wrap" Foreground="#FF1F73E4" SelectionBackground="#FF2ABCCE" Name="txtNombreDelBebe" />
         </StackPanel>
 
         <!--ContentPanel. Colocar aquí el contenido adicional-->

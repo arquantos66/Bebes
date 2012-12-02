@@ -2,9 +2,9 @@
 <!DOCTYPE rem:requirementsProject SYSTEM "C:\Program Files\REM 1.2.2\xml\REM_1_2_2.dtd">
 <rem:requirementsProject
 xmlns:rem="http://rem.lsi.us.es">
-<rem:name>peso ideal para bebes</rem:name>
+<rem:name>peso para bebes</rem:name>
 <rem:c_requirementsSpecification oid = "CRS-0001">
-<rem:name>01</rem:name>
+<rem:name>peso para BEBES</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -41,13 +41,13 @@ Ninguno</rem:comments>
 <rem:organization
  oid = "ORG-0001">
 <rem:name>
-peso ideal</rem:name>
+peso ideal  para bebes</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2012</rem:year>
-<rem:month>10</rem:month>
+<rem:month>12</rem:month>
 <rem:day>2</rem:day>
 </rem:date>
 </rem:version>
@@ -172,7 +172,7 @@ contexto</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
-<rem:number>3 </rem:number>
+<rem:number>A </rem:number>
 <rem:glossaryItem
  oid = "GLO-0001">
 <rem:name>
@@ -210,7 +210,7 @@ prototipo</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>3.1 </rem:number>
+<rem:number>A.A </rem:number>
 <rem:graphicFile
  oid = "GRF-0001">
 <rem:name>
@@ -250,7 +250,7 @@ necesidades</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
-<rem:number>4 </rem:number>
+<rem:number>3 </rem:number>
 <rem:objective
  oid = "OBJ-0001">
 <rem:name>
@@ -294,7 +294,7 @@ casos de uso</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
-<rem:number>5 </rem:number>
+<rem:number>4 </rem:number>
 <rem:section
  oid = "SEC-0010">
 <rem:name>
@@ -311,7 +311,7 @@ actores</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>5.1 </rem:number>
+<rem:number>4.1 </rem:number>
 <rem:actor
  oid = "ACT-0001">
 <rem:name>
@@ -350,7 +350,7 @@ casos de uso</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>5.2 </rem:number>
+<rem:number>4.2 </rem:number>
 <rem:useCase
  oid = "UC-0002">
 <rem:name>
@@ -661,7 +661,7 @@ requisitos</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
-<rem:number>6 </rem:number>
+<rem:number>5 </rem:number>
 <rem:section
  oid = "SEC-0007">
 <rem:name>
@@ -680,7 +680,7 @@ funcionales</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>6.1 </rem:number>
+<rem:number>5.1 </rem:number>
 <rem:functionalRequirement
  oid = "FRQ-0001">
 <rem:name>
@@ -700,34 +700,10 @@ Ninguno</rem:comments>
 Ninguno</rem:comments>
 <rem:importance value = "IMV-0002"/>
 <rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0004"/>
+<rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-tomar el peso del bebe para tomar calculos</rem:description>
-</rem:functionalRequirement>
-<rem:functionalRequirement
- oid = "FRQ-0002">
-<rem:name>
- edad</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2012</rem:year>
-<rem:month>10</rem:month>
-<rem:day>16</rem:day>
-</rem:date>
-</rem:version>
-<rem:authors stakeholders ="STK-0001 STK-0002 STK-0003 "/>
-<rem:sources stakeholders ="STK-0001 "/>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance value = "IMV-0002"/>
-<rem:urgency value = "URV-0002"/>
-<rem:status value = "STV-0004"/>
-<rem:stability value = "SBV-0003"/>
-<rem:description>
-tomar la edad del bebe para saber cual debiria ser su peso</rem:description>
+tomar los datos suministrados por el usuario para sacar el peso del bebe y sabe si se encuentra fuera de tal</rem:description>
 </rem:functionalRequirement>
 </rem:section>
 <rem:section
@@ -748,7 +724,7 @@ no funcionales </rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>6.2 </rem:number>
+<rem:number>5.2 </rem:number>
 </rem:section>
 <rem:section
  oid = "SEC-0009">
@@ -768,7 +744,7 @@ de informacion</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
-<rem:number>6.3 </rem:number>
+<rem:number>5.3 </rem:number>
 <rem:informationRequirement
  oid = "IRQ-0001">
 <rem:name>
@@ -1048,18 +1024,6 @@ Hour:minutes:seconds</rem:description>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0003">
 <rem:name>No necesidad</rem:name>
 <rem:description>
@@ -1072,16 +1036,16 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+<![CDATA[Por Determinar]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0005">
@@ -1120,30 +1084,6 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
 <rem:name>Imprecisión</rem:name>
 <rem:description>
@@ -1154,6 +1094,42 @@ Hour:minutes:seconds</rem:description>
 <rem:name>Incompleción</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0001">

@@ -22,12 +22,23 @@ namespace Bebes.Movil
         /// </summary>
         /// <returns>Marco raíz de la aplicación telefónica.</returns>
         public PhoneApplicationFrame RootFrame { get; private set; }
+        private static Contenedor contexto;
+
+        public static Contenedor Contexto
+        {
+            get { return App.contexto; }
+            set { App.contexto = value; }
+
+        }
 
         /// <summary>
         /// Constructor para el objeto Application.
         /// </summary>
         public App()
         {
+            Contexto = new Contenedor();
+            
+            
             // Controlador global para excepciones no detectadas. 
             UnhandledException += Application_UnhandledException;
 
@@ -63,6 +74,12 @@ namespace Bebes.Movil
         // Este código no se ejecutará cuando la aplicación se reactive
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
+            using (BaseDatosDataContext contextoDB = new BaseDatosDataContext("isostore:/db.sdf"))
+            {
+                if (!contextoDB.DatabaseExists())
+                    contextoDB.DatabaseExists();
+            }
+
         }
 
         // Código para ejecutar cuando la aplicación se activa (se trae a primer plano)

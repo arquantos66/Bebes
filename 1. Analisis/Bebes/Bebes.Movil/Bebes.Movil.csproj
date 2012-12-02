@@ -73,6 +73,7 @@
       <DependentUpon>BaseDatos.dbml</DependentUpon>
     </Compile>
     <Compile Include="ClasePrincipal.cs" />
+    <Compile Include="Contenedor.cs" />
     <Compile Include="Convertidor.cs" />
     <Compile Include="CrearPerfil.xaml.cs">
       <DependentUpon>CrearPerfil.xaml</DependentUpon>
